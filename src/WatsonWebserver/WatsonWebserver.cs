@@ -389,6 +389,8 @@ namespace WatsonWebserver
                     }
 
                     HttpListenerContext listenerCtx = await _HttpListener.GetContextAsync().ConfigureAwait(false);
+                    listenerCtx.Response.KeepAlive = _Settings.IO.EnableKeepAlive;
+
                     Interlocked.Increment(ref _RequestCount);
                     HttpContext ctx = null;
 

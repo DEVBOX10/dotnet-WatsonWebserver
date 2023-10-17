@@ -5,6 +5,7 @@
 v5.1.x
 
 - ```HostBuilder``` feature to quickly build servers, thank you @sapurtcomputer30!
+- ```Settings.IO.EnableKeepAlive``` flag to enable or disable HTTP listener context response keepalives
 
 ## Previous Versions
 

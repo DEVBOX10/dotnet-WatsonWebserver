@@ -13,7 +13,7 @@ namespace Test
     {
 #pragma warning disable CS1998 // Async method lacks 'await' operators and will run synchronously
 
-        static string _Hostname = "0.0.0.0";
+        static string _Hostname = "localhost";
         static int _Port = 8080;
         static bool _Ssl = false;
         static Server _Server = null;

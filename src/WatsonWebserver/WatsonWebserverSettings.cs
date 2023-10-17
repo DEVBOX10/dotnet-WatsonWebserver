@@ -231,6 +231,11 @@ namespace WatsonWebserver
                 }
             }
 
+            /// <summary>
+            /// Flag indicating whether or not the server requests a persistent connection.
+            /// </summary>
+            public bool EnableKeepAlive { get; set; } = false;
+
             private int _StreamBufferSize = 65536;
             private int _MaxRequests = 1024;
 

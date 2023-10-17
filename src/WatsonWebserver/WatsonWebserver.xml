@@ -1788,6 +1788,11 @@
             Maximum number of concurrent requests.
             </summary>
         </member>
+        <member name="P:WatsonWebserver.WatsonWebserverSettings.IOSettings.EnableKeepAlive">
+            <summary>
+            Flag indicating whether or not the server requests a persistent connection.
+            </summary>
+        </member>
         <member name="M:WatsonWebserver.WatsonWebserverSettings.IOSettings.#ctor">
             <summary>
             Input-output settings.
